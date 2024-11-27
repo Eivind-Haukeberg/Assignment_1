@@ -64,74 +64,73 @@
 
 
     <main>
-      <div class="mobile-container">
-        <h2>Våre mobiltelefoner</h2>
-        <p>Sjekk våre beste mobiltilbud akkurat nå</p>
-        <div class="mobile-collection">
-          <div class="mobile-collection__item">
-              <img src="../assets/images/mobile-images/Galaxy_S24_Ultra_Titanium_Gray_01_AI.png" alt="Galaxy S24 Ultra">
-              <p class="brand-name">Samsung</p>
-              <p class="model-name">Galaxy S24 Ultra</p>
-              <div class="underline"></div>
-              <li><strong>Skjerm:</strong> 6.8 tommer Dynamic AMOLED 2X</li>
-                <li><strong>Prosessor:</strong> Snapdragon 8 Gen 3</li>
-                <li><strong>Kamera:</strong> Quad-kamera system</li>
-                <li><strong>Batteri:</strong> 5000 mAh med hurtiglading</li>
-                <li><strong>Vann- og støvbestandig:</strong> IP68</li>
-          </div>
-          <div class="mobile-collection__item">
-            <div class="form__container">
-              <h2>Bestillingsinformasjon</h2>
-              <form id="order-form">
-                  <div class="form-group">
-                      <label for="name">Navn:</label>
-                      <input type="text" id="name" name="name" required>
-                  </div>
-                  
-                  <div class="form-group">
-                      <label for="address">Adresse:</label>
-                      <input type="text" id="address" name="address" required>
-                  </div>
-                  
-                  <div class="form-group">
-                      <label for="phone">Telefon:</label>
-                      <input type="tel" id="phone" name="phone" required>
-                  </div>
-                  
-                  <div class="form-group">
-                      <label for="email">E-post:</label>
-                      <input type="email" id="email" name="email" required>
-                  </div>
-                  
-                  <h3>Betalingsinformasjon</h3>
-                  
-                  <div class="form-group">
-                      <label for="card-number">Kortnummer:</label>
-                      <input type="text" id="card-number" name="card-number" required>
-                  </div>
-                  
-                  <div class="form-group">
-                      <label for="expiry">Utløpsdato (MM/ÅÅ):</label>
-                      <input type="text" id="expiry" name="expiry" required>
-                  </div>
-                  
-                  <div class="form-group">
-                      <label for="cvc">CVC:</label>
-                      <input type="text" id="cvc" name="cvc" required>
-                  </div>
-                  
-                  <button type="submit" class="cta-button">Fullfør bestilling</button>
-              </form>
-          </div>
-        </div>
-        <div class="mobile-collection__item">
+      <div class="product-container">
+        <div class="product__item1">
+            <img src="../assets/images/mobile-images/Galaxy_S24_Ultra_Titanium_Gray_01_AI.png" alt="Galaxy S24 Ultra">
+            <p class="brand-name">Samsung</p>
+            <p class="model-name">Galaxy S24 Ultra</p>
+            <div class="underline"></div>
             <p>Delbetaling fra</p>
             <span class="mobile-price-container"><p class="mobile-price-nok">604 ,-</p><p class="mobile-price-md">pr md.</p></span>
             <p class="small-print">Med 24 md. rentefri delbetaling.</p>
             <p class="small-print">Minste totalpris med Telia X Max i 12 md. 21348,-</p>
-            <button type="submit" class="cta-button">Fullfør bestilling</button>
+
+            <ul class="product-details">
+              <h2>Produktdetaljer</h2>
+                <li><strong>Skjerm:</strong> 6.8 tommer Dynamic AMOLED 2X</li>
+                <li><strong>Prosessor:</strong> Snapdragon 8 Gen 3</li>
+                <li><strong>Kamera:</strong> Quad-kamera system</li>
+                <li><strong>Batteri:</strong> 5000 mAh med hurtiglading</li>
+                <li><strong>Vann- og støvbestandig:</strong> IP68</li>
+            </ul>
+        </section>
+
+        </section>
         </div>
-      </div>
+        <div class="product__item2">
+          <h2>Bestillingsinformasjon</h2>
+          <form id="order-form">
+              <div class="form-group">
+                  <label for="name">Navn:</label>
+                  <input type="text" id="name" name="name" required>
+              </div>
+              
+              <div class="form-group">
+                  <label for="address">Adresse:</label>
+                  <input type="text" id="address" name="address" required>
+              </div>
+              
+              <div class="form-group">
+                  <label for="phone">Telefon:</label>
+                  <input type="tel" id="phone" name="phone" required>
+              </div>
+              
+              <div class="form-group">
+                  <label for="email">E-post:</label>
+                  <input type="email" id="email" name="email" required>
+              </div>
+              
+              <h3>Kortinformasjon</h3>
+              
+              <div class="form-group">
+                  <label for="card-number">Kortnummer:</label>
+                  <input type="text" id="card-number" name="card-number" required>
+              </div>
+              
+              <div class="form-group">
+                  <label for="expiry">Utløpsdato (MM/ÅÅ):</label>
+                  <input type="text" id="expiry" name="expiry" required>
+              </div>
+              
+              <div class="form-group">
+                  <label for="cvc">CVC:</label>
+                  <input type="text" id="cvc" name="cvc" required>
+              </div>
+              
+              <button type="submit" class="cta-button">Fullfør bestilling</button>
+          </form>
+        </div>
+    </div>
   </main>
 
   <footer></footer>

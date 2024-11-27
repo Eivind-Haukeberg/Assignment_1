@@ -1,1 +1,0 @@
-# Eivind-Assignment_1
